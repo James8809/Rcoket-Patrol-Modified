@@ -2,6 +2,9 @@ let config = {
     type: Phaser.CANVAS,
     width: 640,
     height: 480,
+    scale: {
+        autoCenter: Phaser.Scale.CENTER_BOTH
+    },
     scene: [Menu, Menu2, Menu3, Play, Play2]
 }
 
